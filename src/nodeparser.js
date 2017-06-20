@@ -423,7 +423,7 @@ NodeParser.prototype.paintFormValue = function(container) {
         wrapper.style.position = "fixed";
         wrapper.style.left = bounds.left + "px";
         wrapper.style.top = bounds.top + "px";
-        wrapper.textContent = value;
+        //wrapper.textContent = value;
         document.body.appendChild(wrapper);
         this.paintText(new TextContainer(wrapper.firstChild, container));
         document.body.removeChild(wrapper);
